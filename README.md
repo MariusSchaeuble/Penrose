@@ -9,5 +9,5 @@ Some methods (For example shown in Wikipedia) use the half dart inflation: Assum
 That only works for the start formations sun and star, and is hence a strong heuristic.
 
 My function newGeneration works for any valid start formation, like single tiles or the ace. The general case must take into account, that new tiles can stretch over several old tiles. To avoid 
-conflicts betwen tiles or inaccuracy due to multiple defined objects, I used java pointers to compare existing objects, and not it's values/points.
+conflicts betwen tiles or inaccuracy due to multiple defined objects, I used java pointers to compare existing objects, and not its values/points.
 
